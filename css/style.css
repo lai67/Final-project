@@ -159,14 +159,131 @@ html {
     padding-top: 0;
   }
   
-  #copyright {
+  #footer {
     padding: 2.1rem 0;
     background: #7FA93B;
     text-align: center;
   }
   
-  #copyright .copyrightText {
+  #footer .footerText {
     font-size: 2.4rem;
     font-weight: 400;
     color: #222;
   }
+  #housingBanner {
+    padding: 1.6rem 0;
+  }
+  
+  #dreamHomeAwaits .dreamHomeCtrl {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+  }
+  
+  #dreamHomeAwaits .yourDreamLeft {
+    max-width: 26%;
+  }
+  
+  #dreamHomeAwaits .yourDreamLeft .smlTitle {
+    text-align: left;
+    padding-bottom: 2.1rem;
+  }
+  
+  #dreamHomeAwaits .yourDreamRight {
+    max-width: 72%;
+  }
+  
+  #dreamHomeAwaits .yourDreamRight .triplRightCards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.6rem;
+  }
+  
+  #dreamHomeAwaits .yourDreamRight .triplRightCards img {
+    max-width: 32.9rem;
+  }
+  
+  #howMuch {
+    padding: 1.8rem 0;
+  }
+  
+  #howMuch .smlTitle {
+    padding-bottom: 1.9rem;
+  }
+  
+  .bold {
+    font-weight: 700;
+  }
+  
+  .py-1 {
+    padding: 1.6rem 0;
+  }
+  
+  .py-3 {
+    padding: 3rem 0;
+  }
+  
+  #renting {
+    padding-bottom: 3.8rem;
+  }
+  
+  #renting .dualSectionCtrl {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #renting .dualSectionCtrl .bold {
+    color: #6E431E;
+  }
+  
+  #renting .dualSectionCtrl a {
+    font-style: italic;
+    color: #0B39FF;
+  }
+  
+  #renting .dualSectionCtrl .innerTitleDes {
+    padding: 1rem 0;
+  }
+  
+  #renting .dualSectionCtrl .left {
+    max-width: 49%;
+  }
+  
+  #renting .dualSectionCtrl .right {
+    max-width: 49%;
+  }
+  
+  a {
+    font-style: italic;
+    color: #0B39FF;
+  }
+  
+  .innerFourImages {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .innerFourImages .singleImg {
+    max-width: 48.5%;
+    padding: 1rem 0;
+  }
+  
+  .rentingExplore .smlTitle {
+    text-align: left;
+  }
+  
+  .rentingExplore .dualSectionCtrl #innerTitleDes {
+    padding-top: 2.5rem;
+  }
+  
+  .pb-0 {
+    padding-bottom: 0;
+  }
+  
+  .rentingExplore_celcebrate #dualMiddle {
+    align-items: center;
+  }
+  
