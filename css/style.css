@@ -286,4 +286,176 @@ html {
   .rentingExplore_celcebrate #dualMiddle {
     align-items: center;
   }
+
+  #map {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+  }
+  
+  #contactHeader {
+    text-align: center;
+    padding: 4rem 0;
+  }
+  
+  #contactHeader .contactSmlTitle {
+    font-size: 2.8rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  
+  #contactHeader .letsTalk {
+    max-width: 30.9rem;
+    margin: 0 auto;
+    text-align: center;
+    padding: 3rem 0;
+    font-size: 3.6rem;
+    font-weight: 700;
+  }
+  
+  #contactHeader .contactMsg {
+    font-size: 2.8rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  
+  #contactForm {
+    padding-top: 2.4rem;
+    padding-bottom: 10rem;
+  }
+  
+  #contactForm .formCtrl {
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+  }
+  
+  #contactForm .formCtrl .singleInput {
+    margin-bottom: 3rem;
+  }
+  
+  #contactForm .formCtrl .singleInput input,
+  #contactForm .formCtrl .singleInput textarea {
+    padding: 1.5rem 1.25rem;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #000;
+    width: 100%;
+    border-radius: 8px;
+    border: 2px solid #005C5C;
+    background: #F1EEE7;
+  }
+  
+  #contactForm .formCtrl .submitBtnCtrl {
+    text-align: right;
+  }
+  
+  #contactForm .formCtrl .submitBtnCtrl .submitBtn {
+    font-family: "Inter";
+    font-size: 2.8rem;
+    font-style: normal;
+    font-weight: 700;
+    padding: 2rem 4.5rem;
+    color: #fff;
+    border-radius: 50px;
+    background: #179B5C;
+    max-width: 22rem;
+    margin: 0 0 0 auto;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #contactForm .formCtrl .dualInput {
+    display: flex;
+    align-items: center;
+  }
+  
+  #contactForm .formCtrl .dualInput .singleInput {
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+  }
+  
+  #contactForm .formCtrl .dualInput .singleInput input {
+    padding: 0;
+    width: 2rem;
+    height: 2rem;
+    margin-bottom: 1rem;
+    margin-right: 0.5rem;
+  }
+  
+  #contactForm .formCtrl label {
+    font-family: "Inter";
+    font-size: 2.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 0.8rem;
+    display: block;
+    cursor: pointer;
+  }
+  
+  #contactForm .formCtrl .leftForm {
+    width: 40%;
+  }
+  
+  #contactForm .formCtrl .rightForm {
+    width: 50%;
+  }
+  
+  @media screen and (max-width: 768px) {
+    html {
+      font-size: 8px;
+    }
+  
+    #header #menu,
+    #header #menu .nav-list,
+    #banner .bannerController,
+    #dreamHomeAwaits .dreamHomeCtrl,
+    #renting .dualSectionCtrl,
+    #contactForm .formCtrl {
+      display: block;
+      text-align: left;
+    }
+  
+    #banner .bannerController .bannerLeft,
+    #dreamHomeAwaits .yourDreamLeft,
+    #dreamHomeAwaits .yourDreamLeft,
+    #renting .dualSectionCtrl .left,
+    #renting .dualSectionCtrl .right,
+    #contactForm .formCtrl .leftForm {
+      width: 100%;
+      max-width: 100%;
+    }
+  
+    #header #menu .nav-list .nav-item {
+      text-align: left;
+      padding: 0.75rem 0;
+    }
+  
+    #trippleCards .tripleCardCtrl .card {
+      max-width: 95%;
+      margin: 0 auto;
+    }
+  
+    #dreamHomeAwaits .yourDreamRight .triplRightCards {
+      padding-top: 2rem;
+    }
+  
+    #dreamHomeAwaits .yourDreamRight .triplRightCards img {
+      max-width: 31%;
+    }
+  
+    #renting .dualSectionCtrl .right {
+      padding-top: 2re;
+    }
+  
+    #renting {
+      padding-top: 2rem;
+    }
+  
+    #renting .dualSectionCtrl .left {
+      padding-top: 2rem;
+    }
+  }
   
