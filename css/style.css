@@ -1,0 +1,172 @@
+/* Google Font */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* common CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background: #c3e5a5;
+    font-family: "Rubik" , sans-serif;
+  }
+
+  body h1,
+  body h2,
+  body h3,
+  body h4,
+  body h5,
+  body h6{
+    font-family: "Inter" , sans-serif;
+  }
+
+  body .container {
+    max-width: 144rem;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+  }
+  
+  body .img-fluid {
+    width: 100%;
+    height: auto;
+  }
+  
+  body p {
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  body .smlTitle {
+    color: #6E431E;
+    text-align: center;
+    font-size: 2.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  
+  body .text-center {
+    text-align: center;
+  }
+
+  /* custom style start here */
+  #header {
+    background-color: #426116;
+  }
+
+  #header #menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  #header #menu .nav-list {
+    padding: 2rem 0;
+    display: flex;
+    align-items: center;
+    list-style: none;
+  }
+
+  #header #menu .nav-list .nav-item {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 2.8rem;
+    padding-left: 4rem;
+    text-align: center;
+  }
+
+  #header #menu .nav-list .nav-item .nav-link {
+    text-decoration: none;
+    color: #fff;
+    font-style: normal;
+  }
+
+  #header #menu .nav-list .nav-item .nav-link.active {
+    color: #FFC563;
+  }
+
+  #banner .bannerController {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+  }
+
+  #banner .bannerController .bannerLeft {
+    padding: 1.6rem;
+    max-width: 49%;
+  }
+
+  #banner .bannerController .bannerLeft .commonText {
+    padding-top: 3rem;
+  }
+
+  #trippleCards .tripleCardCtrl {
+    padding: 3.8rem 0;
+    display: flex;
+    align-items: start;
+    flex-wrap: wrap;
+    gap: 2.2rem;
+  }
+
+  #trippleCards .tripleCardCtrl .card {
+    max-width: 32%;
+  }
+
+  #trippleCards .tripleCardCtrl .card .card-title {
+    padding-bottom: 0.5rem;
+    text-transform: uppercase;
+  }
+
+  #trippleCards .tripleCardCtrl .card .card-text {
+    padding: 1.6rem 0;
+    font-size: 2.4rem;
+  }
+
+  #trippleCards .tripleCardCtrl .card .card-btn {
+    display: flex;
+    align-items: center;
+    font-size: 2.8rem;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    color: #fff;
+    padding: 0.8rem 1.6rem;
+    text-decoration: none;
+    border-radius: 2.1rem;
+    background: #009688;
+    -webkit-border-radius: 2.1rem;
+    -moz-border-radius: 2.1rem;
+    -ms-border-radius: 2.1rem;
+    -o-border-radius: 2.1rem;
+    display: inline-block;
+    font-style: normal;
+  }
+
+  #trippleCards .tripleCardCtrl .card .card-btn svg {
+    margin-left: 0.8rem;
+  }
+  
+  #trippleCards .removePt {
+    padding-top: 0;
+  }
+  
+  #copyright {
+    padding: 2.1rem 0;
+    background: #7FA93B;
+    text-align: center;
+  }
+  
+  #copyright .copyrightText {
+    font-size: 2.4rem;
+    font-weight: 400;
+    color: #222;
+  }
