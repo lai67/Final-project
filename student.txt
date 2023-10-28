@@ -1,5 +1,5 @@
 Student name: Laith Mohammed Ameen Noman Al-hemyari
 Student number: 684239
 Student class: IT1A
-GitHub Repository: your github repository URL
+GitHub Repository: https://github.com/lai67/Final-project.git
 GitHub Pages URL: your github pages URL
