@@ -58,7 +58,7 @@ html {
   h1::first-letter {
     line-height: initial;
   }
-  
+
   body .smlTitle {
     color: #6E431E;
     text-align: center;
@@ -491,7 +491,7 @@ html {
   #cookies .cookieCtrl {
     padding: 3rem;
     border-radius: 1rem;
-    background: #bb8518db;
+    background: #bb851881;
     max-width: 40rem;
     text-align: center;
     border-width: 1px;
