@@ -17,6 +17,8 @@ html {
   body {
     background: #c3e5a5;
     font-family: "Rubik" , sans-serif;
+    position: relative;
+    /* visited state */
   }
 
   body h1,
@@ -30,20 +32,31 @@ html {
 
   body .container {
     max-width: 144rem;
-    margin: 0 auto;
+    margin:  auto;
     padding: 0 1.5rem;
   }
   
   body .img-fluid {
     width: 100%;
     height: auto;
+    float: none;
   }
   
-  body p {
+  body p,
+    body article,
+    body aside {
     font-size: 2.4rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: 1.25;
+    text-indent: 0;
+  }
+  
+  h1::first-letter {
+    line-height: initial;
   }
   
   body .smlTitle {
@@ -59,7 +72,18 @@ html {
     text-align: center;
   }
 
-  /* custom style start here */
+  body a:hover{
+    color: #6e421e;
+    /* hover state color*/
+
+  }
+
+  body a:visited {
+    color: #0B39FF;
+  }
+
+  /* main style start here*/
+
   #header {
     background-color: #426116;
   }
@@ -143,10 +167,7 @@ html {
     text-decoration: none;
     border-radius: 2.1rem;
     background: #009688;
-    -webkit-border-radius: 2.1rem;
-    -moz-border-radius: 2.1rem;
-    -ms-border-radius: 2.1rem;
-    -o-border-radius: 2.1rem;
+
     display: inline-block;
     font-style: normal;
   }
@@ -236,12 +257,23 @@ html {
   #renting .dualSectionCtrl .bold {
     color: #6E431E;
   }
+
+  #renting .dualSectionCtrl .smlTitle{
+    padding-top: 2rem;
+  }
   
   #renting .dualSectionCtrl a {
     font-style: italic;
     color: #0B39FF;
   }
+  #renting .dualSectionCtrl a:hover {
+    color: #6e421e;
+  }
   
+  #renting .dualSectionCtrl a:visited {
+    color: #0B39FF;
+  }
+
   #renting .dualSectionCtrl .innerTitleDes {
     padding: 1rem 0;
   }
@@ -275,7 +307,7 @@ html {
     text-align: left;
   }
   
-  .rentingExplore .dualSectionCtrl #innerTitleDes {
+  .rentingExplore .dualSectionCtrl>#innerTitleDes {
     padding-top: 2.5rem;
   }
   
@@ -401,6 +433,115 @@ html {
   
   #contactForm .formCtrl .rightForm {
     width: 50%;
+  }
+
+  #userDetails {
+    padding-bottom: 10rem;
+  }
+  
+  #userDetails #customers {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #userDetails #customers td,
+  #userDetails #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #userDetails #customers tr:nth-child(even) {
+    background-color: #CFF;
+  }
+  
+  #userDetails #customers tr:nth-child(odd) {
+    background-color: #fff;
+  }
+  
+  #userDetails #customers tr:hover {
+    background-color: #ddd;
+  }
+  
+  #userDetails #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  #userDetails table,
+  #userDetails tr,
+  #userDetails td,
+  #userDetails th {
+    font-size: 2rem;
+  }
+  
+  #userDetails table {
+    background: #fff;
+  }
+  
+  #cookies {
+    position: fixed;
+    bottom: 3rem;
+    right: 3rem;
+    z-index: 999;
+  }
+  
+  #cookies .cookieCtrl {
+    padding: 3rem;
+    border-radius: 1rem;
+    background: #bb8518db;
+    max-width: 40rem;
+    text-align: center;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #fff;
+  }
+  
+  #cookies .cookieCtrl .cookieTitle {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #fff;
+  }
+  
+  #cookies .cookieCtrl .cookieMessage {
+    font-size: 1.7rem;
+    font-weight: 500;
+    text-align: justify;
+    color: #fff;
+    line-height: 1.5;
+    padding: 2.5rem 0;
+  }
+  
+  #cookies .cookieCtrl .acceptCookieBtn {
+    font-size: 2rem;
+    font-style: normal;
+    cursor: pointer;
+    font-weight: 500;
+    color: #000;
+    background: #fff;
+    padding: 1.2rem 2rem;
+    border-radius: 1rem;
+    display: inline-block;
+    text-decoration: none;
+  }
+  
+  figcaption{
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+  fieldset {
+    border: none;  /* Remove the border around the fieldset */
+  }
+  
+  legend {
+    text-align: center;  /* Center the text horizontally */
+    width: 100%;         /* Make the legend full-width */
+    margin: 0 auto;      /* Center the legend within the fieldset */
+    border: none;        /* Remove any border or outline */
+    visibility: hidden;
   }
   
   @media screen and (max-width: 768px) {
